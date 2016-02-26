@@ -1,0 +1,7 @@
+*.log
+*.iml
+
+target/
+
+nb-configuration.xml
+mime.csv
