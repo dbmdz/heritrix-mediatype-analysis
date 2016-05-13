@@ -1,0 +1,72 @@
+mappings:
+    application/javascript:
+        - text/javascript
+        - text/js
+        - text/x-js
+        - application/js
+        - application/x-javascript
+        - application/x-js
+    application/json:
+        - text/json
+    audio/midi:
+        - audio/mid
+    application/pdf:
+        - text/pdf
+        - application/x-pdf
+        - image/pdf
+    application/vnd.ms-access:
+        - application/msaccess
+        - application/x-msaccess
+    application/vnd.ms-excel:
+        - application/msexcel
+        - application/x-msexcel
+        - application/excel
+        - application/vnd.excel
+        - application/vnd.ms-exel
+        - application/vnd.ms-excel.sheet.macroenabled.12 # Eigentlich eigene MIME-Typen
+        - application/vnd.ms-excel.sheet.binary.macroenabled.12 # Eigentlich eigene MIME-Typen
+    application/vnd.ms-powerpoint:
+        - application/powerpoint
+        - application/mspowerpoint
+        - application/owerpoint
+        - application/vnd.ms-powerpoint.presentation.12
+        - application/vnd.ms-powerpoint.presentation.macroenabled.12
+        - application/vnd.ms-powerpoint.macroenabled.12
+        - application/vnd.ms-powerpoint.show.12
+        - application/vnd.ms-pps
+    application/font-ttf:
+        - application/x-font-ttf
+        - font/ttf
+        - x-font/ttf
+    application/font-woff:
+        - font/woff
+        - font/x-woff
+    application/vnd.ms-word:
+        - application/msword
+        - application/vnd.ms-word.document.12
+        - application/vnd.ms-word.document.macroenabled.12
+        - application/vnd.ms-word.template.macroenabled.12
+        - application/vnd.openxmlformats-officedocument.word
+        - application/vnd.openxmlformats-officedocument.wordprocessing
+        - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+        - application/vnd.openxmlformats-officedocument.wordprocessingml.template
+        - application/vnd.openxmlformats-officedocument.wordprocessingml.d
+    application/postscript:
+        - application/postcript
+        - image/x-eps
+    application/rar:
+        - application/x-rar-compressed
+        - application/x-rar
+    application/zip:
+        - aplication/zip
+        - application/x-zip
+        - application/x-zip-compressed
+        - zip
+    application/xml:
+        - text/xml
+    image/jpeg:
+        - image/jpg
+        - application/jpg
+        - jpg
+    image/png:
+        - image/x-png
