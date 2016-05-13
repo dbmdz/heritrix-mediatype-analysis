@@ -1,7 +1,7 @@
-package de.digitalcollections.webarchive.mediatypes.integration.handler;
+package de.digitalcollections.webarchive.mediatypes.analysis.integration.handler;
 
-import de.digitalcollections.webarchive.mediatypes.integration.handler.MediaTypeCountingHandler;
-import de.digitalcollections.webarchive.mediatypes.model.CrawlLogLine;
+import de.digitalcollections.webarchive.mediatypes.analysis.integration.handler.MediaTypeCountingHandler;
+import de.digitalcollections.webarchive.mediatypes.analysis.model.CrawlLogLine;
 import static java.util.Collections.emptyMap;
 import java.util.Map;
 import static org.hamcrest.core.Is.is;

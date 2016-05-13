@@ -1,4 +1,4 @@
-package de.digitalcollections.webarchive.mediatypes.integration.messagesource;
+package de.digitalcollections.webarchive.mediatypes.analysis.integration.messagesource;
 
 import java.io.File;
 import java.io.IOException;

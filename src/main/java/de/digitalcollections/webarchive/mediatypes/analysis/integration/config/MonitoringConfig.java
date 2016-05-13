@@ -1,4 +1,4 @@
-package de.digitalcollections.webarchive.mediatypes.integration.config;
+package de.digitalcollections.webarchive.mediatypes.analysis.integration.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

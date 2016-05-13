@@ -1,4 +1,4 @@
-package de.digitalcollections.webarchive.mediatypes.model;
+package de.digitalcollections.webarchive.mediatypes.analysis.model;
 
 /**
  * Created by MBITZL on 12.11.2015.

@@ -1,11 +1,11 @@
-package de.digitalcollections.webarchive.mediatypes.integration.config;
+package de.digitalcollections.webarchive.mediatypes.analysis.integration.config;
 
 
-import de.digitalcollections.webarchive.mediatypes.integration.handler.MediaTypeCountingHandler;
-import de.digitalcollections.webarchive.mediatypes.integration.messagesource.CrawlLogMessageSource;
-import de.digitalcollections.webarchive.mediatypes.integration.transformer.FileToLineTransformer;
-import de.digitalcollections.webarchive.mediatypes.integration.transformer.StringToCrawlLogLineTransformer;
-import de.digitalcollections.webarchive.mediatypes.service.TearDownService;
+import de.digitalcollections.webarchive.mediatypes.analysis.integration.handler.MediaTypeCountingHandler;
+import de.digitalcollections.webarchive.mediatypes.analysis.integration.messagesource.CrawlLogMessageSource;
+import de.digitalcollections.webarchive.mediatypes.analysis.integration.transformer.FileToLineTransformer;
+import de.digitalcollections.webarchive.mediatypes.analysis.integration.transformer.StringToCrawlLogLineTransformer;
+import de.digitalcollections.webarchive.mediatypes.analysis.service.TearDownService;
 import java.io.IOException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

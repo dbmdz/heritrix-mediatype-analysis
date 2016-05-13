@@ -1,6 +1,6 @@
-package de.digitalcollections.webarchive.mediatypes.service;
+package de.digitalcollections.webarchive.mediatypes.analysis.service;
 
-import de.digitalcollections.webarchive.mediatypes.integration.handler.MediaTypeCountingHandler;
+import de.digitalcollections.webarchive.mediatypes.analysis.integration.handler.MediaTypeCountingHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

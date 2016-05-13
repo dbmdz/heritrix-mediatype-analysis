@@ -1,6 +1,6 @@
-package de.digitalcollections.webarchive.mediatypes.service;
+package de.digitalcollections.webarchive.mediatypes.analysis.service;
 
-import de.digitalcollections.webarchive.mediatypes.model.MediaTypeInfo;
+import de.digitalcollections.webarchive.mediatypes.analysis.model.MediaTypeInfo;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

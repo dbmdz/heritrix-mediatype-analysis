@@ -1,6 +1,6 @@
-package de.digitalcollections.webarchive.mediatypes.integration.transformer;
+package de.digitalcollections.webarchive.mediatypes.analysis.integration.transformer;
 
-import de.digitalcollections.webarchive.mediatypes.model.CrawlLogLine;
+import de.digitalcollections.webarchive.mediatypes.analysis.model.CrawlLogLine;
 import java.util.regex.Pattern;
 import org.joda.time.DateTime;
 import org.slf4j.Logger;

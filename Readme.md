@@ -1,8 +1,8 @@
-# Crawl Log Crawler
+# Crawl Log Media Type Analysis
 
 ## Usage
 
-### Crawl log crawler
+### Analyze Media Types
 
 Parse a large number of Heritrix crawl.log files for line-based processing.
 Actually it extracts MIME-Type information, but is extensible. The software
@@ -21,7 +21,7 @@ To get a high level view while processing, you can run `src/main/sh/dashboard.sh
 ./dashboard.sh
 ```
 
-### Consolidation of MediaTypes
+### Consolidation of Media Types
 
 Many of the gathered Media Types are invalid, e.g. because of typos. In `mappings.yml` one defines a mapping from wrong to consolidated Media Types (see example in `src/main/python`). The mapping has to be in the same directory as `consolidate.py`.
 

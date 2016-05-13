@@ -1,7 +1,7 @@
-package de.digitalcollections.webarchive.mediatypes.integration.handler;
+package de.digitalcollections.webarchive.mediatypes.analysis.integration.handler;
 
-import de.digitalcollections.webarchive.mediatypes.model.CrawlLogLine;
-import de.digitalcollections.webarchive.mediatypes.model.MediaTypeInfo;
+import de.digitalcollections.webarchive.mediatypes.analysis.model.CrawlLogLine;
+import de.digitalcollections.webarchive.mediatypes.analysis.model.MediaTypeInfo;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import org.springframework.integration.dsl.support.GenericHandler;

@@ -1,4 +1,4 @@
-package de.digitalcollections.webarchive.mediatypes.model;
+package de.digitalcollections.webarchive.mediatypes.analysis.model;
 
 import org.joda.time.DateTime;
 

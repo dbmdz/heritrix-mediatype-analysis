@@ -1,4 +1,4 @@
-package de.digitalcollections.webarchive.mediatypes;
+package de.digitalcollections.webarchive.mediatypes.analysis;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

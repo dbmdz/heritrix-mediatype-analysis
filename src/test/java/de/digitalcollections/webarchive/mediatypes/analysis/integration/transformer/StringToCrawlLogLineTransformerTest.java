@@ -1,7 +1,7 @@
-package de.digitalcollections.webarchive.mediatypes.integration.transformer;
+package de.digitalcollections.webarchive.mediatypes.analysis.integration.transformer;
 
-import de.digitalcollections.webarchive.mediatypes.integration.transformer.StringToCrawlLogLineTransformer;
-import de.digitalcollections.webarchive.mediatypes.model.CrawlLogLine;
+import de.digitalcollections.webarchive.mediatypes.analysis.integration.transformer.StringToCrawlLogLineTransformer;
+import de.digitalcollections.webarchive.mediatypes.analysis.model.CrawlLogLine;
 import static org.hamcrest.Matchers.nullValue;
 import org.hamcrest.core.Is;
 import static org.hamcrest.core.Is.is;

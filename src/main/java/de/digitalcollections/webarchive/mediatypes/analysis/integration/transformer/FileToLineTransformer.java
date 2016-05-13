@@ -1,4 +1,4 @@
-package de.digitalcollections.webarchive.mediatypes.integration.transformer;
+package de.digitalcollections.webarchive.mediatypes.analysis.integration.transformer;
 
 import java.io.File;
 import java.io.FileNotFoundException;
