@@ -1,6 +1,5 @@
 package de.digitalcollections.webarchive.mediatypes.analysis.integration.handler;
 
-import de.digitalcollections.webarchive.mediatypes.analysis.integration.handler.MediaTypeCountingHandler;
 import de.digitalcollections.webarchive.mediatypes.analysis.model.CrawlLogLine;
 import static java.util.Collections.emptyMap;
 import java.util.Map;
@@ -9,10 +8,7 @@ import static org.junit.Assert.assertThat;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- *
- * @author Marcus Bitzl <marcus.bitzl@bsb-muenchen.de>
- */
+
 public class MimeCountingHandlerTest {
 
   private Map<String, Object> headers;

@@ -1,6 +1,5 @@
 package de.digitalcollections.webarchive.mediatypes.analysis.service;
 
-import de.digitalcollections.webarchive.mediatypes.analysis.service.ReportService;
 import de.digitalcollections.webarchive.mediatypes.analysis.model.MediaTypeInfo;
 import java.io.IOException;
 import java.io.StringWriter;
@@ -12,10 +11,7 @@ import static org.junit.Assert.assertThat;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- *
- * @author Marcus Bitzl <marcus.bitzl@bsb-muenchen.de>
- */
+
 public class ReportServiceTest {
 
   private ReportService reportService;

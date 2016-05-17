@@ -1,8 +1,6 @@
 package de.digitalcollections.webarchive.mediatypes.analysis.model;
 
-/**
- * Created by MBITZL on 12.11.2015.
- */
+
 public class MediaTypeInfo {
 
   private int count;
@@ -34,3 +32,4 @@ public class MediaTypeInfo {
     return size;
   }
 }
+

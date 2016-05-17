@@ -1,6 +1,5 @@
 package de.digitalcollections.webarchive.mediatypes.analysis.integration.transformer;
 
-import de.digitalcollections.webarchive.mediatypes.analysis.integration.transformer.StringToCrawlLogLineTransformer;
 import de.digitalcollections.webarchive.mediatypes.analysis.model.CrawlLogLine;
 import static org.hamcrest.Matchers.nullValue;
 import org.hamcrest.core.Is;
@@ -10,10 +9,7 @@ import static org.junit.Assert.assertThat;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- *
- * @author Marcus Bitzl <marcus.bitzl@bsb-muenchen.de>
- */
+
 public class StringToCrawlLogLineTransformerTest {
 
   private StringToCrawlLogLineTransformer transformer;
