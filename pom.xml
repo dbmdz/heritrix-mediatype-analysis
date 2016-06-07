@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.digitalcollections.webarchive.mediatypes</groupId>
-  <artifactId>analysis</artifactId>
+  <artifactId>mediatype-analysis</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <name>MDZ DLDC: Media Type Analysis</name>
@@ -20,7 +20,7 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>1.3.4.RELEASE</version>
   </parent>
-  
+
   <licenses>
     <license>
       <name>MIT License</name>

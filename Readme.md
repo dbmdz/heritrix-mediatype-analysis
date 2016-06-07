@@ -1,4 +1,8 @@
 # Crawl Log Media Type Analysis
+[![Build Status](https://travis-ci.org/dbmdz/heritrix-harvest-analysis.svg?branch=master)](https://travis-ci.org/dbmdz/heritrix-harvest-analysis)
+[![codecov](https://codecov.io/gh/dbmdz/heritrix-harvest-analysis/branch/master/graph/badge.svg)](https://codecov.io/gh/dbmdz/heritrix-harvest-analysis)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d047a8178404985a4099338840c2e53)](https://www.codacy.com/app/marcus_2/heritrix-mediatype-analysis?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dbmdz/heritrix-mediatype-analysis&amp;utm_campaign=Badge_Grade)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Usage
 
@@ -32,7 +36,7 @@ python consolidate.py mediatypes.csv consolidated.csv
 
 ## Development
 
-To build the software, Usage
+To build the software, use
 
 ```bash
 mvn clean install

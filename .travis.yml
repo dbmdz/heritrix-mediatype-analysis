@@ -1,0 +1,14 @@
+language: java
+jdk:
+  - oraclejdk8
+script:
+  - mvn clean install
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+deploy:
+  provider: releases
+  api_key:
+    secure: iJ72MvG35KXBXs9HxcB6JKVZ9al27e9Bcv2/7BDmoGlRtWQmohk+t+0n+aacUBdRsNSI7hbZFz8acgvt8UfcBLFzh7mlnk60wLWgN8SxYw9H5DXh0379/Y/pz2fqqLNSDjQh7JtujWzhHaQrwFfhomJwJkZZ+LBjM/IIwOLsGspKRIazdXIe8X1n6mhJDGjuF7siy5X0RmHB9fmzLYoDYRCrSYks0AB5IfgOeuZaWgqsDugj2UA8hnO8PavrmjsElh/dFjn4yZEpJeNaDDYwuXYqhvSbYl5ysNnBm/DuuvnRhGTkOd0FiPCjUYwa6ps2uQHl94v7ACHD7TEopvy+5OiDkO5LMYP1B4LMTBVfUemgl32gorUOFKs1a7+rdVl9fp1Xvzqs74KqsMfJPXM2SCh7aKUnSYpfIqpUK8HBCJG+LzFOvOkddVEmxxnoNy/RVM2/G+g1qVJepsCL2f0/NWhqX/5PtATJst7YhW1lS2LF1rlDnbDV3yLSlYTxYW4cwY6AAhSIOfROM6RtDKjcW+vp6TDa8MIYxbAx2BNS89htH4JYqmOJX9rYdYbIh/xtjHKPeq5K+Xi+7+txa6k87CprnxHBn4IcY5jkYOw6WHpNwvKPIReN03x94dacJiocuoIPTDPSywIxBdj0FUdpxEoXR6Q4MXgRzBAc4CEwiIs=
+  file: target/mediatype-analysis*.jar
+  on:
+    tags: true
