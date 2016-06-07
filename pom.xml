@@ -86,6 +86,13 @@
             </goals>
           </execution>
         </executions>
+        <configuration>
+            <excludes>
+                <exclude>**/Application.*</exclude>
+                <exclude>**/config/*</exclude>
+                <exclude>**/TearDownService.*</exclude>
+            </excludes>
+        </configuration>
       </plugin>
       <plugin>
         <!-- Usage: mvn site:site, mvn site:deploy-->
