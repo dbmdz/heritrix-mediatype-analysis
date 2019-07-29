@@ -98,7 +98,7 @@
         <!-- Usage: mvn site:site, mvn site:deploy-->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
-        <version>3.7.1</version>
+        <version>3.8.2</version>
         <dependencies>
           <dependency>
             <groupId>org.apache.maven.doxia</groupId>
